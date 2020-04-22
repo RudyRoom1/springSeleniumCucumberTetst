@@ -1,6 +1,6 @@
-package site.components;
+package code.site.components;
 
-import site.pages.AbstractLoadable;
+import code.site.AbstractLoadable;
 
 public abstract class AbstractComponent extends AbstractLoadable implements HomeComponent {
 

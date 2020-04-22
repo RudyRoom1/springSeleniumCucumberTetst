@@ -13,7 +13,6 @@ public class PageInitializingBPP implements BeanPostProcessor {
 
   @Autowired
   private DriverProvider driverProvider;
-
   @Override
   public Object postProcessBeforeInitialization(Object bean, String beanName)
       throws BeansException {

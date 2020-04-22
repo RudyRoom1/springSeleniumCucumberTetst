@@ -1,4 +1,4 @@
-package site;
+package site.pages;
 
 import code.drivers.DriverProvider;
 import io.vavr.control.Try;

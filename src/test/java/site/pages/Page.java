@@ -1,4 +1,4 @@
-package site;
+package site.pages;
 
 public interface Page {
 

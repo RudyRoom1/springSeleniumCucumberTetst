@@ -1,10 +1,10 @@
-package site.pages.login.impl;
+package code.site.pages.login.impl;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.springframework.stereotype.Component;
-import site.pages.AbstractPage;
-import site.pages.Page;
+import code.site.AbstractPage;
+import code.site.Page;
 
 @Component
 public class DefaultLoginPage extends AbstractPage implements Page {

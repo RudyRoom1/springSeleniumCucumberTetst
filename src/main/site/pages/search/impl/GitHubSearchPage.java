@@ -1,7 +1,7 @@
-package site.pages.search.impl;
+package code.site.pages.search.impl;
 
 import org.springframework.stereotype.Component;
-import site.pages.AbstractPage;
+import code.site.AbstractPage;
 
 @Component
 public class GitHubSearchPage extends AbstractPage {

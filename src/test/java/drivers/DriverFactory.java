@@ -1,4 +1,4 @@
-package code.drivers;
+package drivers;
 
 import static org.openqa.selenium.remote.BrowserType.CHROME;
 import static org.openqa.selenium.remote.BrowserType.FIREFOX;
@@ -15,6 +15,7 @@ public class DriverFactory {
   public static WebDriver getDriver(final DesiredCapabilities capabilities) {
     switch (capabilities.getBrowserName()) {
       case FIREFOX: {
+        // firefox
         WebDriverManager.firefoxdriver().setup();
         return new FirefoxDriver();
       }

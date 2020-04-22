@@ -7,8 +7,8 @@ import org.springframework.context.annotation.PropertySource;
 import org.springframework.context.support.PropertySourcesPlaceholderConfigurer;
 
 @Configuration
-@ComponentScan(basePackages = "com.spring.cucumber")
-@PropertySource("application.properties")
+@ComponentScan(basePackages = "code.site")
+@PropertySource("classpath:application.properties")
 public class ApplicationConfig {
 
   @Bean

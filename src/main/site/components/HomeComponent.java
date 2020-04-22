@@ -1,4 +1,4 @@
-package site.components;
+package code.site.components;
 
 public interface HomeComponent{
 
